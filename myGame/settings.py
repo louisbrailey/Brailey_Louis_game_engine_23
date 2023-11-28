@@ -20,8 +20,9 @@ RED = (255, 0, 0)
 GREEN = (0, 255, 0)
 BLUE = (0, 0, 255)
 
+GROUND =(0, HEIGHT - 40, WIDTH, 40, "normal")
 
-PLATFORM_LIST = [(0, HEIGHT - 40, WIDTH, 40, "normal"),
+PLATFORM_LIST = [
                  (WIDTH / 2 - 50, HEIGHT * 3 / 4, 100, 20,"normal"),
                  (125, HEIGHT - 350, 100, 20, "moving"),
                  (222, 200, 100, 20, "normal"),
